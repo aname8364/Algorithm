@@ -1,0 +1,1 @@
+print(*[f"{p[0]} {p[1]}" for p in sorted([list(map(int, input().split())) for i in range(int(input()))])], sep="\n")
