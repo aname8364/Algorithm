@@ -1,0 +1,1 @@
+x=io.read("n")print(x*(x+1)//2)

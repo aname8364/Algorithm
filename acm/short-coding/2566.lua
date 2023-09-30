@@ -1,0 +1,1 @@
+a=-1;for i=1,9 do for j=1,9 do x=io.read("n")if x>a then a=x;b=i..' '..j;end end end;print(a)print(b)

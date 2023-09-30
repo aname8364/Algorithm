@@ -1,0 +1,1 @@
+x,y=io.read("n","n")if x>y then print(24-x+y)elseif x<y then print(y-x)end
