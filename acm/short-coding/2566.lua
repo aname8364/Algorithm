@@ -1,1 +1,1 @@
-p=print;a=-1;for i=1,9 do for j=1,9 do x=io.read"n"if x>a then a=x;b=i..' '..j;end end end;p(a)p(b)
+a=-1;for i=0,80 do x=io.read"n"if x>a then a,b,c=x,i//9+1,i%9+1;end;end;p=print;p(a)p(b..' '..c)
